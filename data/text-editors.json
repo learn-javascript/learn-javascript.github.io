@@ -35,13 +35,9 @@
 		},
 		{
 			"title": "vim",
-			"description": "highly configurable text editor",
+			"description": "what is vim",
 			"links": [
-				{
-					"description": "what is vim",
-					"type": "website",
-					"url": "http://www.vim.org/about.php"
-				}
+
 			]
 		}
 	]
