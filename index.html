@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>learn-javascript</title>
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+
+	<script id="main_template" type="text/html">
+
+		<h1> {{this.title}} </h1>
+
+		<ul class="lists">
+			{{#each this.lists}}
+				<li class="list-item">
+					<span class="list-title"> {{this.title}} </span>
+					<p class="list-description"> {{this.description}} </p>
+
+					<ul class="links">
+						{{#each this.links}}
+							<li class="link-item">
+								<a class="link-url" href={{this.url}}>[{{this.type}}]</a>
+								{{this.description}}
+							</li>
+						{{/each}}
+					</ul>	
+				</li>
+	    	{{/each}}
+    	</ul>
+
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.4/reqwest.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
