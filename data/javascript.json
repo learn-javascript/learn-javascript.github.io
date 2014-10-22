@@ -1,0 +1,97 @@
+{
+	"title" : "",
+	"description" : "",
+	"lists": [
+		{
+			"title": "first steps",
+			"description": "introduction to programing and javascript",
+			"links": [
+				{
+					"description": "javascript for cats - an introduction for new programmers",
+					"type": "article",
+					"url": "http://jsforcats.com/"
+				},
+				{
+					"description": "Mozilla - introduction to javascript",
+					"type": "article",
+					"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
+				}
+			]
+		},
+		{
+			"title": "novice",
+			"description": "",
+			"links": [
+				{
+					"description": "eloquent javascript",
+					"type": "book",
+					"url": "http://eloquentjavascript.net/"
+				}
+			]
+		},
+		{
+			"title": "apprendice",
+			"description": "",
+			"links": [
+				{
+					"description": "The Definitive Guide to Object-Oriented Javascript",
+					"type": "video",
+					"url": "http://youtu.be/PMfcsYzj-9M"
+				},
+				{
+					"description": "understand javascripts 'this' keyword",
+					"type": "article",
+					"url": "http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/"
+				},
+				{
+					"description": "javascript-allonge",
+					"type": "book",
+					"url": "https://leanpub.com/javascript-allonge/read"
+				}
+			]
+		},
+		{
+			"title": "journeyman",
+			"description": "",
+			"links": [
+				{
+					"description": "Learning JavaScript Design Patterns",
+					"type": "book",
+					"url": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"
+				},
+				{
+					"description": "Codewars",
+					"type": "code-challenges",
+					"url": "http://www.codewars.com/"
+				},
+				{
+					"description": "You Don't Know JS",
+					"type": "book",
+					"url": "https://github.com/getify/You-Dont-Know-JS"
+				}
+			]
+		},
+		{
+			"title": "master",
+			"description": "",
+			"links": [
+				{
+					"description": "Coding Math - canvas tutorials",
+					"type": "video-playlist",
+					"url": "http://www.youtube.com/playlist?list=PL7wAPgl1JVvUEb0dIygHzO4698tmcwLk9"
+				}
+			]
+		},
+		{
+			"title": "guru",
+			"description": "",
+			"links": [
+				{
+					"description": "resource",
+					"type": "ultimate",
+					"url": "http://www.google.com"
+				}
+			]
+		}
+	]
+}

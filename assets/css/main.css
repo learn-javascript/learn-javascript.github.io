@@ -25,7 +25,8 @@ body {
 .list-header {
 	border-bottom: solid 1px #BBBBBB;
 	font-size: 2.5em;
-	padding: 10px 40px;
+	padding: 20px 40px;
+	text-align: center;
 }
 .list-header-description {
 	
