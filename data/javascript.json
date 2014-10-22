@@ -20,7 +20,7 @@
 		},
 		{
 			"title": "novice",
-			"description": "...",
+			"description": "",
 			"links": [
 				{
 					"description": "eloquent javascript",
@@ -31,7 +31,7 @@
 		},
 		{
 			"title": "apprendice",
-			"description": "...",
+			"description": "",
 			"links": [
 				{
 					"description": "The Definitive Guide to Object-Oriented Javascript",
@@ -52,7 +52,7 @@
 		},
 		{
 			"title": "journeyman",
-			"description": "...",
+			"description": "",
 			"links": [
 				{
 					"description": "Learning JavaScript Design Patterns",
@@ -73,7 +73,7 @@
 		},
 		{
 			"title": "master",
-			"description": "...",
+			"description": "",
 			"links": [
 				{
 					"description": "Coding Math - canvas tutorials",
@@ -84,43 +84,12 @@
 		},
 		{
 			"title": "guru",
-			"description": "you're not ready",
+			"description": "",
 			"links": [
 				{
-					"description": "ultimate resource",
+					"description": "resource",
 					"type": "ultimate",
 					"url": "http://www.google.com"
-				}
-			]
-		},
-		{
-			"title": "sublime text",
-			"description": "text editor",
-			"links": [
-				{
-					"description": "sublime text homepage - download here",
-					"type": "website",
-					"url": "http://www.sublimetext.com/"
-				},
-				{
-					"description": "Package Control - the sublime text package manager",
-					"type": "website",
-					"url": "https://sublime.wbond.net/"
-				},
-				{
-					"description": "Linting Your Code with Sublime Linter",
-					"type": "video",
-					"url": "https://www.youtube.com/watch?v=uP2pkvHh2pY#t=12"
-				},
-				{
-					"description": "Working With Code Snippets In Sublime Text",
-					"type": "article",
-					"url": "http://www.hongkiat.com/blog/sublime-code-snippets/"
-				},
-				{
-					"description": "Javascript Snippets for Sublime Text 2 & 3",
-					"type": "website",
-					"url": "https://sublime.wbond.net/packages/JavaScript%20Snippets"
 				}
 			]
 		}

@@ -1,23 +1,29 @@
 
 (function () {
 
-	reqwest({
-		url: './data.json',
-		type: 'json',
-		method: 'get',
-		error: function (err) {
-			console.log('ERROR:', err)
-		},
-		success: function (data) {
-			console.log(data)
-			render(data) 
-		}
+	// add more files here if needed
+	var files = ['javascript.json','text-editors.json']
+
+	.forEach(function (filename) {
+		getFile(filename).then(function (data) {
+			render(data)
+		})
 	})
 
 	function render (data) {
 		var template = Handlebars.compile(document.getElementById('main_template').text)
 		var html = template(data)
-		document.body.innerHTML = html
+		var el = document.createElement('div')
+		el.innerHTML = html
+		document.getElementById('content').appendChild(el)
+	}
+
+	function getFile (filename) {
+		return reqwest({
+			url: '/data/' + filename,
+			type: 'json',
+			method: 'get'	
+		})
 	}
 
 })()

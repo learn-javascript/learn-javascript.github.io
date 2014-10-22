@@ -11,24 +11,33 @@
 </head>
 <body>
 
+	<div id="header">
+		<h1 id="logo"> learn-javascript </h1>
+	</div>
+
+	<div id="content"></div>
+
 	<script id="main_template" type="text/html">
 
-		<h1> {{this.title}} </h1>
-
-		<ul class="lists">
+		<ul class="list-container">
+			{{#if this.title}} 
+				<h2 class="list-header"> {{this.title}} </h2>
+				<span class="list-header-description"> {{this.description}} </span>
+			{{/if}}
 			{{#each this.lists}}
 				<li class="list-item">
 					<span class="list-title"> {{this.title}} </span>
 					<p class="list-description"> {{this.description}} </p>
 
-					<ul class="links">
+					<ul class="link-container">
 						{{#each this.links}}
 							<li class="link-item">
 								<a class="link-url" href={{this.url}}>[{{this.type}}]</a>
 								{{this.description}}
 							</li>
 						{{/each}}
-					</ul>	
+					</ul>
+
 				</li>
 	    	{{/each}}
     	</ul>
