@@ -1,9 +1,10 @@
 {
-	"title" : "learn-javascript",
+	"title" : "",
+	"description" : "",
 	"lists": [
 		{
 			"title": "first steps",
-			"description": "...",
+			"description": "introduction to programing and javascript",
 			"links": [
 				{
 					"description": "javascript for cats - an introduction for new programmers",
@@ -18,7 +19,7 @@
 			]
 		},
 		{
-			"title": "beginner",
+			"title": "novice",
 			"description": "...",
 			"links": [
 				{
@@ -94,7 +95,7 @@
 		},
 		{
 			"title": "sublime text",
-			"description": "something something",
+			"description": "text editor",
 			"links": [
 				{
 					"description": "sublime text homepage - download here",

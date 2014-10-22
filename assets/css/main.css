@@ -1,45 +1,55 @@
 
 body {
 	font-family: 'Droid Sans', sans-serif;
+	color: #212121;
 }
 
-
-h1 {
-	text-align: center;
-	font-size: 4em;
+/*
+	header
+*/
+#header {
 	padding: 20px;
 	border-bottom: solid 1px #BBBBBB;
 }
-
-
-
-.lists {
-
+#logo {
+	text-align: center;
+	font-size: 5em;
 }
 
+/*
+	list
+ */
+.list-container {
+	
+}
+.list-header {
+	border-bottom: solid 1px #BBBBBB;
+	font-size: 2.5em;
+	padding: 10px 40px;
+}
+.list-header-description {
+	
+}
 .list-item {
 	padding: 20px 40px;
 	border-bottom: solid 1px #BBBBBB;
 }
-
 .list-title {
-	font-size: 2em;
+	font-size: 1.5em;
 }
-
 .list-description {
-
+	font-size: 0.8em;
 }
 
-
-
-.links {
+/*
+	link
+ */
+.link-container {
 	margin: 20px 40px;
 }
-
 .link-item {
 	padding: 5px;
 }
-
 .link-url {
 
 }
