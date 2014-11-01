@@ -1,5 +1,5 @@
 {
-	"title" : "",
+	"title" : "vanilla javascript",
 	"description" : "",
 	"lists": [
 		{
@@ -26,6 +26,11 @@
 					"description": "eloquent javascript",
 					"type": "book",
 					"url": "http://eloquentjavascript.net/"
+				},
+				{
+					"description": "debugging Javascript using chrome",
+					"type": "article",
+					"url": "https://developer.chrome.com/devtools/docs/javascript-debugging"
 				}
 			]
 		},
@@ -63,11 +68,6 @@
 					"description": "Codewars",
 					"type": "code-challenges",
 					"url": "http://www.codewars.com/"
-				},
-				{
-					"description": "You Don't Know JS",
-					"type": "book",
-					"url": "https://github.com/getify/You-Dont-Know-JS"
 				}
 			]
 		},
@@ -75,6 +75,11 @@
 			"title": "master",
 			"description": "",
 			"links": [
+				{
+					"description": "You Don't Know JS",
+					"type": "book",
+					"url": "https://github.com/getify/You-Dont-Know-JS"
+				},
 				{
 					"description": "Coding Math - canvas tutorials",
 					"type": "video-playlist",
