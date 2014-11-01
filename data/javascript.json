@@ -19,9 +19,14 @@
 			]
 		},
 		{
-			"title": "novice",
+			"title": "apprendice",
 			"description": "",
 			"links": [
+				{
+					"description": "The Definitive Guide to Object-Oriented Javascript",
+					"type": "video",
+					"url": "http://youtu.be/PMfcsYzj-9M"
+				},
 				{
 					"description": "eloquent javascript",
 					"type": "book",
@@ -32,21 +37,43 @@
 					"type": "article",
 					"url": "https://developer.chrome.com/devtools/docs/javascript-debugging"
 				}
+
 			]
 		},
 		{
-			"title": "apprendice",
+			"title": "journeyman",
 			"description": "",
 			"links": [
-				{
-					"description": "The Definitive Guide to Object-Oriented Javascript",
-					"type": "video",
-					"url": "http://youtu.be/PMfcsYzj-9M"
-				},
 				{
 					"description": "understand javascripts 'this' keyword",
 					"type": "article",
 					"url": "http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/"
+				},
+				{
+					"description": "Codewars",
+					"type": "code-challenges",
+					"url": "http://www.codewars.com/"
+				},
+				{
+					"description": "writing modular js",
+					"type": "article",
+					"url": "http://addyosmani.com/writing-modular-js/"
+				}
+			]
+		},
+		{
+			"title": "master",
+			"description": "",
+			"links": [
+				{
+					"description": "Coding Math - canvas tutorials",
+					"type": "video-playlist",
+					"url": "http://www.youtube.com/playlist?list=PL7wAPgl1JVvUEb0dIygHzO4698tmcwLk9"
+				},
+				{
+					"description": "Learning JavaScript Design Patterns",
+					"type": "book",
+					"url": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"
 				},
 				{
 					"description": "javascript-allonge",
@@ -56,45 +83,13 @@
 			]
 		},
 		{
-			"title": "journeyman",
-			"description": "",
-			"links": [
-				{
-					"description": "Learning JavaScript Design Patterns",
-					"type": "book",
-					"url": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"
-				},
-				{
-					"description": "Codewars",
-					"type": "code-challenges",
-					"url": "http://www.codewars.com/"
-				}
-			]
-		},
-		{
-			"title": "master",
+			"title": "guru",
 			"description": "",
 			"links": [
 				{
 					"description": "You Don't Know JS",
 					"type": "book",
 					"url": "https://github.com/getify/You-Dont-Know-JS"
-				},
-				{
-					"description": "Coding Math - canvas tutorials",
-					"type": "video-playlist",
-					"url": "http://www.youtube.com/playlist?list=PL7wAPgl1JVvUEb0dIygHzO4698tmcwLk9"
-				}
-			]
-		},
-		{
-			"title": "guru",
-			"description": "",
-			"links": [
-				{
-					"description": "resource",
-					"type": "ultimate",
-					"url": "http://www.google.com"
 				}
 			]
 		}
