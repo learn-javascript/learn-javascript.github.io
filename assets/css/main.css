@@ -15,6 +15,10 @@ body {
 	text-align: center;
 	font-size: 5em;
 }
+#logo-small {
+	padding: 15px;
+	text-align: center;
+}
 
 /*
 	list

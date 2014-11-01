@@ -7,7 +7,7 @@
 			"description": "slick text editor",
 			"links": [
 				{
-					"description": "sublime text homepage - download here",
+					"description": "sublime text homepage",
 					"type": "website",
 					"url": "http://www.sublimetext.com/"
 				},
@@ -37,26 +37,26 @@
 			"title": "vim",
 			"description": "modal text editor",
 			"links": [
-                            {
-                                "description": "vim home page",
-                                "type": "website",
-                                "url": "http://www.vim.org"
-                            },
-                            {
-                                "description": "Pathogen - the vim package manager",
-                                "type": "website",
-                                "url": "https://github.com/tpope/vim-pathogen"
-                            },
-                            {
-                                "description": "syntastic - vim linter plugin",
-                                "type": "website",
-                                "url": "https://github.com/scrooloose/syntastic/wiki"
-                            },
-                            {
-                                "description": "equipping vim for javascript",
-                                "type": "article",
-                                "url": "http://oli.me.uk/2013/06/29/equipping-vim-for-javascript/"
-                            }
+				{
+					"description": "vim home page",
+					"type": "website",
+					"url": "http://www.vim.org"
+				},
+				{
+					"description": "Pathogen - the vim package manager",
+					"type": "website",
+					"url": "https://github.com/tpope/vim-pathogen"
+				},
+				{
+					"description": "syntastic - vim linter plugin",
+					"type": "website",
+					"url": "https://github.com/scrooloose/syntastic/wiki"
+				},
+				{
+					"description": "equipping vim for javascript",
+					"type": "article",
+					"url": "http://oli.me.uk/2013/06/29/equipping-vim-for-javascript/"
+				}
 			]
 		}
 	]
