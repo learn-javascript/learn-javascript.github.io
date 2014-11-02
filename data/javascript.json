@@ -12,6 +12,11 @@
 					"url": "http://jsforcats.com/"
 				},
 				{
+					"description": "How to Learn JavaScript Properly",
+					"type": "article",
+					"url": "http://javascriptissexy.com/how-to-learn-javascript-properly/"
+				},
+				{
 					"description": "Mozilla - introduction to javascript",
 					"type": "article",
 					"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
