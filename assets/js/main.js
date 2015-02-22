@@ -2,7 +2,7 @@
 (function () {
 
 	// add more files here if needed
-	var files = ['javascript.json','text-editors.json']
+	var files = ['javascript.json','text-editors.json', 'jquery.json']
 
 	.forEach(function (filename) {
 		getFile(filename).then(function (data) {
@@ -22,7 +22,7 @@
 		return reqwest({
 			url: '/data/' + filename,
 			type: 'json',
-			method: 'get'	
+			method: 'get'
 		})
 	}
 

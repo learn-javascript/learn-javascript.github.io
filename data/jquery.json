@@ -1,0 +1,38 @@
+{
+  "title": "jquery",
+  "description": "",
+  "lists": [
+    {
+      "title": "basics",
+      "description": "",
+      "links": [
+        {
+          "description": "Code School: Try jQuery",
+          "type": "interactive course",
+          "url": "http://try.jquery.com"
+        }
+      ]
+    },
+    {
+      "title": "in-depth",
+      "description": "",
+      "links": [
+        {
+          "description": "jQuery Fundamentals",
+          "type": "website",
+          "url": "http://jqfundamentals.com"
+        },
+        {
+          "description": "30 Days to learn jQuery (free with account)",
+          "type": "screencast course",
+          "url": "http://code.tutsplus.com/courses/30-days-to-learn-jquery"
+        },
+        {
+          "description": "Offical documentation",
+          "type": "website",
+          "url": "http://api.jquery.com"
+        }
+      ]
+    }
+  ]
+}
