@@ -1,0 +1,43 @@
+{
+  "title": "node",
+  "description": "",
+  "lists": [
+    {
+      "title": "basics",
+      "description": "",
+      "links": [
+        {
+          "description": "NODESCHOOL",
+          "type": "interactive courses",
+          "url": "http://nodeschool.io"
+        }
+      ]
+    },
+    {
+      "title": "in-depth",
+      "description": "",
+      "links": [
+        {
+          "description": "API Reference",
+          "type": "reference",
+          "url": "http://nodejs.org/api/"
+        },
+        {
+          "description": "The Node Way",
+          "type": "website",
+          "url": "http://thenodeway.io"
+        },
+        {
+          "description": "How To Node",
+          "type": "website",
+          "url": "http://howtonode.org"
+        },
+        {
+          "description": "The Streams Handbook",
+          "type": "reference",
+          "url": "https://github.com/substack/stream-handbook"
+        }
+      ]
+    }
+  ]
+}

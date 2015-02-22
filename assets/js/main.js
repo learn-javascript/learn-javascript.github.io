@@ -2,7 +2,7 @@
 (function () {
 
 	// add more files here if needed
-	var files = ['javascript.json','text-editors.json', 'jquery.json']
+        var files = ['javascript.json', 'text-editors.json', 'jquery.json', 'node.json']
 
 	.forEach(function (filename) {
 		getFile(filename).then(function (data) {
