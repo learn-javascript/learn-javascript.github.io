@@ -41,8 +41,12 @@
 					"description": "debugging Javascript using chrome",
 					"type": "article",
 					"url": "https://developer.chrome.com/devtools/docs/javascript-debugging"
+				},
+				{
+					"description": "JavaScript: The Good Parts",
+					"type": "video",
+					"url": "https://youtu.be/hQVTIJBZook"
 				}
-
 			]
 		},
 		{
