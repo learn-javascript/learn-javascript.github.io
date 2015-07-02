@@ -10,6 +10,16 @@
           "description": "Code School: Try jQuery",
           "type": "interactive course",
           "url": "http://try.jquery.com"
+        },
+        {
+          "description": "Codecademy: jQuery track (free with account)",
+          "type": "interactive course",
+          "url": "http://www.codecademy.com/en/tracks/jquery"
+        },
+        {
+          "description": "Udacity: Intro to jQuery (free with account)",
+          "type": "interactive course",
+          "url": "https://www.udacity.com/course/intro-to-jquery--ud245"
         }
       ]
     },
