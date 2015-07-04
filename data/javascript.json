@@ -88,6 +88,11 @@
 					"description": "javascript-allonge",
 					"type": "book",
 					"url": "https://leanpub.com/javascript-allonge/read"
+				},
+				{
+					"description": "Human JavaScript",
+					"type": "book",
+					"url": "http://read.humanjavascript.com/"
 				}
 			]
 		},
